@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ResturentAdminSide</string>
+
+    <string-array name="SelectZone">
+        <item>Select City</item>
+        <item>Peshawar</item>
+        <item>Islamabad</item>
+        <item>Lahour</item>
+        <item>Mardan</item>
+
+    </string-array>
+</resources>

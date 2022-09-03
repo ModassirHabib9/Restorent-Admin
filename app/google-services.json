@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "880761481524",
+    "firebase_url": "https://resturentapp-d923c-default-rtdb.firebaseio.com",
+    "project_id": "resturentapp-d923c",
+    "storage_bucket": "resturentapp-d923c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880761481524:android:eba317b298ac55ca891d61",
+        "android_client_info": {
+          "package_name": "com.example.resturentadminside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880761481524-43ofjok5fflfuvvis9uu7o6t23s425t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resturentadminside",
+            "certificate_hash": "c087fde743c4a7a278fa6e4ea105a95b40d6b9d0"
+          }
+        },
+        {
+          "client_id": "880761481524-qkcfbu7vanqlle0gfhmmsk1i7g2n317v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resturentadminside",
+            "certificate_hash": "888b8b1ece44b60f180b6367a2726f1e6e2e6c73"
+          }
+        },
+        {
+          "client_id": "880761481524-31gg47u68s55r06sh4cc6ie74sc0rlcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4Q5O0U-SHSSeI7YGuX0yEi1nz9ewQfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880761481524-31gg47u68s55r06sh4cc6ie74sc0rlcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880761481524:android:b31eca3f1445574c891d61",
+        "android_client_info": {
+          "package_name": "com.example.resturentcustomerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880761481524-ep9og01vrchne7ia1b91t1q7jif4ubck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resturentcustomerapp",
+            "certificate_hash": "c087fde743c4a7a278fa6e4ea105a95b40d6b9d0"
+          }
+        },
+        {
+          "client_id": "880761481524-31gg47u68s55r06sh4cc6ie74sc0rlcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4Q5O0U-SHSSeI7YGuX0yEi1nz9ewQfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880761481524-31gg47u68s55r06sh4cc6ie74sc0rlcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/yello"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="Items Addition Screen"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/mButtonChooseImage"
+            android:layout_marginRight="10dp"
+            android:visibility="visible"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Select Picture"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:visibility="visible"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="0.3"
+                                android:padding="10dp"
+                                android:id="@+id/image_view"
+                                 />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:textSize="19dp"
+                                android:paddingLeft="10dp"
+                                android:maxLines="3"
+                                android:layout_weight="1"
+                                android:id="@+id/edt_item_name"
+                                android:hint="Enter item name"
+                                android:textColor="#000" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:textSize="19dp"
+                                android:paddingLeft="10dp"
+                                android:maxLines="3"
+                                android:layout_weight="1"
+                                android:id="@+id/edt_item_price"
+
+                                android:hint="Enter item price"
+                                android:textColor="#000" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:textSize="19dp"
+            android:paddingLeft="20dp"
+            android:maxLines="3"
+            android:layout_weight="1"
+            android:id="@+id/edt_item_quantity"
+
+            android:hint="Enter item Quantity"
+            android:textColor="#000" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="15dp"
+            android:layout_marginTop="30dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="center_vertical"
+            app:cardCornerRadius="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:textSize="19dp"
+                    android:id="@+id/edt_item_description"
+                    android:paddingLeft="10dp"
+                    android:maxLines="30"
+                    android:layout_weight="1"
+
+                    android:gravity="start"
+                    android:hint="Enter product name"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_upload"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:textSize="16dp"
+                android:background="#158e4b"
+                android:gravity="center"
+                android:text="Submit Item"
+                android:id="@+id/btn_submit"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
